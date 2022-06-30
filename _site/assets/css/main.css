@@ -25,27 +25,32 @@ header .icon-bar { background-color: #ffffff; height: 3px; }
 header #header-navbar-collapse.in { background-color: var(--dark-grey); }
 header .navbar-right { margin-top: .5rem; }
 header .navbar--icons { color: var(--dark-grey); font-size: 24px; }
-header .navbar--icons:hover { background-color: var(--dark-grey) !important; color: orange; }
+header .navbar--icons:hover { background-color: var(--dark-grey) !important; border-radius: 50px; color: var(--pale); }
+
+.grey-header { color: var(--mid-grey); }
+
+.orange-header { color: var(--orange); }
+
+.green-header { color: var(--green); }
+
+.blue-header { color: var(--dark-blue); }
 
 .index .index--logo { width: 100%; }
 .index .index--slogan { text-align: center; }
 .index .index--block-text { margin: 20px 40px; text-align: left; }
 .index .index--block-text h2 { text-align: left; }
 .index .index--block .index--block-image { width: 100%; }
-.index .index--block .index--product-header { color: var(--mid-grey); }
-.index .index--block .index--values-header { color: var(--orange); text-align: center; }
+.index .index--block .index--product-story { color: var(--mid-grey); font-family: 'Roxie', serif; text-align: left; }
+.index .index--block .index--values-header { text-align: center; }
 .index .index--block .index--why--subheader { padding-left: 20px; text-align: left !important; }
-.index .index--block .index--team-header { color: var(--green); }
 .index .index--block .index--team-image { height: 200px; padding: 0; }
-.index .index--block .index--contact-header { color: var(--dark-blue); }
 .index .index--block .index--contact--p { text-align: center; }
 .index .index--block .index--contact--btn--row { align-items: center; display: flex; justify-content: center; }
 .index .index--block .index--contact--btn--row .index--contact--btn--text { background-color: var(--dark-blue); border-radius: 50px; color: white; padding: 8px 20px; text-align: center; }
 
-.scentple { margin-top: 100px; }
-.scentple .scentple-logo { margin-left: -15px; margin-top: 2rem; width: 100%; }
-.scentple .scentple--top { margin-bottom: 2rem; margin-top: 2rem; }
-.scentple .scentple-app--link { color: #1d3354; }
+.pomander { margin-top: 100px; }
+.pomander .pomander-story--image { margin-bottom: 3rem; margin-top: 2rem; max-width: 100%; }
+.pomander .pomander-app--link { color: #1d3354; }
 
 .team { margin-top: 8rem; text-align: center; }
 
